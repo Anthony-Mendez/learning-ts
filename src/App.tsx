@@ -1,10 +1,10 @@
 import React, { ReactElement } from 'react';
-import { Hello } from './components/hello-world';
+import { UserTable } from './components/user-table';
 
 function App(): ReactElement {
     return (
         <h1>
-            <Hello name='World' />
+            <UserTable />
         </h1>
     );
 }
