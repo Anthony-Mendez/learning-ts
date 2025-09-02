@@ -1,6 +1,5 @@
 import React, { ReactElement } from 'react';
 import { Hello } from './components/hello-world';
-import './App.css';
 
 function App(): ReactElement {
     return (
